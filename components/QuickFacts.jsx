@@ -6,7 +6,7 @@ const FACTS = [
   { label: "Configurations", value: "Studio, 1 & 2 BR" },
   { label: "Status", value: "Ready & Off-Plan" },
   { label: "RERA No.", value: "RERA Registered" },
-];
+]; 
 
 export default function QuickFacts() {
   return (

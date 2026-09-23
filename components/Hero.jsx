@@ -42,9 +42,8 @@ export default function Hero() {
       {SLIDES.map((slide, i) => (
         <div
           key={slide.src}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            i === active ? "opacity-100" : "opacity-0"
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${i === active ? "opacity-100" : "opacity-0"
+            }`}
           aria-hidden={i !== active}
         >
           <Image
@@ -101,7 +100,10 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
+          <LeadForm />
+        </div> */}
+        <div className="mt-4 lg:mt-0">
           <LeadForm />
         </div>
       </div>
@@ -112,9 +114,8 @@ export default function Hero() {
             key={s.src}
             onClick={() => setActive(i)}
             aria-label={`Go to slide ${i + 1}`}
-            className={`h-1.5 rounded-full transition-all ${
-              i === active ? "w-6 bg-brand-gold" : "w-1.5 bg-white/40"
-            }`}
+            className={`h-1.5 rounded-full transition-all ${i === active ? "w-6 bg-brand-gold" : "w-1.5 bg-white/40"
+              }`}
           />
         ))}
       </div>

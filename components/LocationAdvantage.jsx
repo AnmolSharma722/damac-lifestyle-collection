@@ -52,7 +52,7 @@ export default function LocationAdvantage() {
               Multiple Prime Dubai Communities
             </h3>
             <p className="mt-3 max-w-md text-[15px] leading-relaxed text-black/60">
-              Our buy-ready studios, 1 and 2 bedroom apartments are located across Dubai's most desirable communities, offering convenient access to leisure, retail, business destinations and major city attractions.
+              Our buy-ready studios, 1 and 2 bedroom apartments are located across Dubai&apos;s most desirable communities, offering convenient access to leisure, retail, business destinations and major city attractions.
             </p>
 
             <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">

@@ -21,7 +21,7 @@ export default function ConsultationCTA({ id }) {
             <span className="text-brand">Consultation Today</span>
           </h2>
           <p className="mt-5 max-w-md text-[15px] leading-relaxed text-black/60">
-            Our expert agents are ready to help you explore Dubai's best communities and find the right studio, 1 or 2 bedroom apartment for your budget and investment goals.
+            Our expert agents are ready to help you explore Dubai&apos;s best communities and find the right studio, 1 or 2 bedroom apartment for your budget and investment goals.
           </p>
           <div className="mt-5 h-[3px] w-14 bg-brand" />
 

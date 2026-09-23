@@ -13,7 +13,7 @@ export default function BuyProperty() {
               BUY LUXURY PROPERTY IN DUBAI
             </h2>
             <p className="mt-4 max-w-md text-[15px] leading-relaxed text-black/65">
-              Sand & Rock Real Estate helps you buy verified, RERA-approved apartments from Dubai's most trusted developers, backed by expert local guidance.  
+              Sand & Rock Real Estate helps you buy verified, RERA-approved apartments from Dubai&apos;s most trusted developers, backed by expert local guidance.  
             </p>
             <a href="#contact" className="btn-gold mt-6">
               <DocIcon />

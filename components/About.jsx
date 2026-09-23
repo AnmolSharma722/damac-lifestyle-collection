@@ -27,7 +27,7 @@ export default function About() {
 
             <div>
               <p className="text-[15px] leading-relaxed text-black/65">
-                Explore a curated selection of studio, 1 and 2 bedroom apartments across Dubai's most trusted master communities. From ready homes to smart off-plan launches, flexible payment plans and prime connectivity, we help you buy the right property with complete confidence and expert guidance at every step.
+                Explore a curated selection of studio, 1 and 2 bedroom apartments across Dubai&apos;s most trusted master communities. From ready homes to smart off-plan launches, flexible payment plans and prime connectivity, we help you buy the right property with complete confidence and expert guidance at every step.
               </p>
               <a href="#contact" className="btn-outline-maroon mt-6">
                 Why Buy With Us →

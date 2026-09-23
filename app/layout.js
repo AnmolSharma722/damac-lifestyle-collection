@@ -16,9 +16,8 @@ const body = Poppins({
 });
 
 export const metadata = {
-  title: "The DAMAC Lifestyle Collection | Sand and Rock Real Estate",
-  description:
-    "Explore The DAMAC Lifestyle Collection in Dubai — luxury residences, premium amenities and exceptional lifestyles across Dubai's most sought-after master communities.",
+  title: "Sand and Rock Real Estate",
+  description: "Expert real estate solutions for every square feet.",
 };
 
 export default function RootLayout({ children }) {

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #14201d;
+}
+
+.section-pad {
+  padding-top: clamp(48px, 6vw, 80px);
+  padding-bottom: clamp(48px, 6vw, 80px);
+}
+
+.card-panel {
+  @apply rounded-4xl shadow-[0_10px_40px_-15px_rgba(20,32,29,0.25)];
+}
+
+.btn-gold {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-gold px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-brand-ink transition-colors hover:brightness-95;
+}
+
+.btn-dark {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-ink px-6 py-3 text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-black;
+}
+
+.btn-outline-maroon {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-brand-maroon px-6 py-3 text-sm font-semibold text-brand-maroon transition-colors hover:bg-brand-maroon hover:text-white;
+}
+
+.field {
+  @apply w-full rounded-md border border-brand-gold/50 bg-white px-4 py-3 text-sm text-brand-ink placeholder:text-black/45 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
